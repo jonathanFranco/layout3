@@ -286,7 +286,7 @@ header,
     display: initial!important;
   }
   #intro{
-    margin-top: 60px!important;
+    margin-top: 55px!important;
   }
   #nav-color{
     background-color: #81c784;
@@ -297,6 +297,9 @@ header,
     border-top: 0px;
     border-bottom: 0px;
     border-right: 0px;
+  }
+  .nav-link{
+    font-size: 27px!important;
   }
 
 }
@@ -328,7 +331,7 @@ header,
     display: initial!important;
   }
   #intro{
-    margin-top: 60px!important;
+    margin-top: 55px!important;
   }
   #nav-color{
     background-color: #81c784;
@@ -339,6 +342,9 @@ header,
     border-top: 0px;
     border-bottom: 0px;
     border-right: 0px;
+  }
+  .nav-link{
+    font-size: 27px!important;
   }
 
 }
