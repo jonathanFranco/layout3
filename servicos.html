@@ -4,6 +4,8 @@
 	<meta charset="utf-8" name="viewport"
     content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <meta author="Jonathan Franco">
+  <meta name="theme-color" content="#81c784">
+  <meta name="msapplication-navbutton-color" content="#81c784">
 	<title>Empresa - Seu Slogan</title>
   <link rel="icon" href="img/icon.png" type="image/png" />
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
@@ -113,7 +115,7 @@
 
 
    <!--intro-->
-  <div style="background-image: url('img/espaco.jpg');background-size: cover;background-attachment: fixed;position: center;font-family: 'Kaushan Script', cursive;">
+  <div onclick="closeNav()" style="background-image: url('img/espaco.jpg');background-size: cover;background-attachment: fixed;position: center;font-family: 'Kaushan Script', cursive;">
      <div class="mask rgba-black-light py-5">
         <div class="col-md-12 py-5">
           <div class="my-3 wow fadeInUp" data-wow-delay="0.4s">
@@ -127,7 +129,7 @@
   </div>
 
 
-<main>
+<main onclick="closeNav()">
 
   <!--Membros-->
   <section class="green lighten-5" style="overflow: hidden;">
@@ -223,7 +225,7 @@
 </main>
 
 <!-- Footer -->
-<footer class="page-footer font-small green">
+<footer onclick="closeNav()" class="page-footer font-small green">
   <div class="green darken-1 wow fadeIn" data-wow-delay="0.2s">
     <div class="container">
       <!-- Grid row-->
